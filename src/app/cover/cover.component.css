@@ -1,0 +1,10 @@
+.custom-carousel-image {
+    width: 100%;
+    height: 89%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.carousel-item {
+    height: 100vh;
+}

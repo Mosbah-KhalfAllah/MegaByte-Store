@@ -1,0 +1,27 @@
+<div class="contact-content">
+    <div class="contact-form">
+      <h1>Contactez-nous</h1>
+      <form (submit)="submitForm()">
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required placeholder="Taper votre nom">
+
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" required placeholder="Taper votre prénom">
+
+        <label for="tel">N° de Téléphone :</label>
+        <input type="number" id="tel" name="tel" required placeholder="Taper votre numéro">
+  
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required placeholder="Taper votre mail">
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message"required placeholder="Taper votre message ici ..."></textarea>
+  
+        <button type="submit">Envoyer</button>
+      </form>
+    </div>
+    
+    <div class="contact-image">
+      <img src="assets/inscription.gif" alt="Image de Contact">
+    </div>
+  </div>
